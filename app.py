@@ -1,7 +1,7 @@
 import streamlit as st
 import re
 
-st.set_page_config(":blue[ Password Stregth Meter]",layout="centered")
+st.set_page_config(" Password Stregth Meter",layout="centered")
 st.title(":green :maple_leaf: Password Strength Meter :maple_leaf: \r by  :maple_leaf:  Samiya Marium    :maple_leaf:")
 def passwordstrength(pw):
     score = 0
